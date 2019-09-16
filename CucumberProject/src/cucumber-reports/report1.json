@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-16T11:34:14.186Z",
+        "line": 2,
+        "name": "A valid login user scenario",
+        "description": "",
+        "id": "login-feature-file;a-valid-login-user-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9327487800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The URL of demo web shop application",
+            "match": {
+              "location": "LoginStepDefinition.the_URL_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216573800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters kannan2@gmail.com as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_kannan_gmail_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115676200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_test_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2656655400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003ckannan[1]@gmail.com\u003e but was:\u003ckannan[2]@gmail.com\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat skeleton.LoginStepDefinition.user_login_shall_be_success(LoginStepDefinition.java:42)\r\n\tat ✽.User login shall be success along with kannan1@gmail.com displayed in next page(file:src/test/resources/skeleton/login.feature:7)\r\n",
+              "duration": 60780500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User login shall be success along with kannan1@gmail.com displayed in next page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan1@gmail.com",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefinition.user_login_shall_be_success(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature File",
+    "description": "",
+    "id": "login-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/login.feature",
+    "tags": []
+  }
+]
