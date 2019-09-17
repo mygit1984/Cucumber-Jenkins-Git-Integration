@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-09-16T11:34:14.186Z",
+        "start_timestamp": "2019-09-17T06:40:58.385Z",
         "line": 2,
         "name": "A valid login user scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9327487800,
+              "duration": 18623714900,
               "status": "passed"
             },
             "line": 3,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 216573800,
+              "duration": 168819700,
               "status": "passed"
             },
             "line": 4,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 115676200,
+              "duration": 118972000,
               "status": "passed"
             },
             "line": 5,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 2656655400,
+              "duration": 2473444100,
               "status": "passed"
             },
             "line": 6,
@@ -73,16 +73,15 @@
           },
           {
             "result": {
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003ckannan[1]@gmail.com\u003e but was:\u003ckannan[2]@gmail.com\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat skeleton.LoginStepDefinition.user_login_shall_be_success(LoginStepDefinition.java:42)\r\n\tat ✽.User login shall be success along with kannan1@gmail.com displayed in next page(file:src/test/resources/skeleton/login.feature:7)\r\n",
-              "duration": 60780500,
-              "status": "failed"
+              "duration": 49848800,
+              "status": "passed"
             },
             "line": 7,
-            "name": "User login shall be success along with kannan1@gmail.com displayed in next page",
+            "name": "User login shall be success along with kannan2@gmail.com displayed in next page",
             "match": {
               "arguments": [
                 {
-                  "val": "kannan1@gmail.com",
+                  "val": "kannan2@gmail.com",
                   "offset": 39
                 }
               ],
