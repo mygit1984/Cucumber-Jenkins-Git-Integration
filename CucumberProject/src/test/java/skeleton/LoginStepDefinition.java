@@ -14,7 +14,7 @@ public class LoginStepDefinition {
 	
 	@Given("The URL of demo web shop application")
 	public void the_URL_of_demo_web_shop_application() {
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\driverfiles\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver Files\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demowebshop.tricentis.com/login");
